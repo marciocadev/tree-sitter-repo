@@ -1,0 +1,67 @@
+.wing-code-container {
+  padding: 0 1rem;
+}
+
+.wing-code-section {
+  margin-bottom: 2rem;
+}
+
+.wing-code-loading,
+.wing-code-error {
+  padding: 0 1rem;
+}
+
+.wing-code-error {
+  color: red;
+}
+
+.wing-code-output {
+  padding: 1rem;
+  /* background-color: #f0f8ff; */
+  background-color: #000;
+  border-radius: 4px;
+  overflow: auto;
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+  border: 1px solid #d0e7ff;
+}
+
+.wing-code-tree-output {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  overflow: auto;
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+/* Syntax highlighting styles */
+.wing-code-keyword {
+  color: #5901C8;
+  font-weight: bold;
+}
+
+.wing-code-builtin-type {
+  color: #015858;
+  font-weight: bold;
+}
+
+.wing-code-number {
+  color: #8A6100;
+  font-weight: bold;
+}
+
+.wing-code-special-character {
+  color: #515151;
+  font-weight: bold;
+}
+
+.wing-code-class-identifier {
+  color: #4EC9B0;
+  font-weight: bold;
+}
+
